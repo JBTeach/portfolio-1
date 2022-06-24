@@ -5,6 +5,7 @@
     --black:#444;
     --light-color:#777;
     --bg-color:#e6e6e6;
+    --color:#e6e6e6;
     --border:.1rem solid rgba(0,0,0,.2);
     --box-shadow:.4rem .4rem 1rem #ccc,
                 -.4rem -.4rem 1rem #fff;
@@ -39,6 +40,7 @@ body.active{
     --black:#fff;
     --light-color:#ddd;
     --bg-color:#222;
+    --color:rgb(34 34 34);
     --border:.1rem solid rgba(0,0,0,.4);
     --box-shadow:.4rem .4rem 1rem #111,
                 -.4rem -.4rem 1rem #333;
@@ -234,7 +236,7 @@ section{
     left: 0;
     height: 100%;
     width: 100%;
-    background: rgb(229, 230, 229);
+    background: var(--color);
     border-left: 2px solid #f3f0f0;
     
    animation:typing 1.5s steps(12) infinite;
