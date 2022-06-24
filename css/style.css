@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 :root{
+    --intxt:black;
     --green:#27ae60;
     --black:#444;
     --light-color:#777;
@@ -37,6 +38,7 @@ body{
 }
 
 body.active{
+    --intxt:white;
     --black:#fff;
     --light-color:#ddd;
     --bg-color:#222;
@@ -214,7 +216,7 @@ section{
     overflow: hidden;
 }
 .dynamic-txts li{
-    color: #333;
+    color: var(--intxt);
     list-style: none;
     font-size: 60px;
     font-weight: 500;
