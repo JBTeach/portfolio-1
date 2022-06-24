@@ -205,11 +205,11 @@ section{
 }
 .home .wrapper .static-txt{
     color: #27ae60;
-    font-size: 50px;
-    font-weight: 400;
+    font-size: 40px;
+    font-weight: 500;
 }
 .home .wrapper .dynamic-txts{
-    margin-left: 15px;
+    margin-left: 10px;
     height: 90px;
     line-height: 90px;
     /*background:#333 ;*/
@@ -218,15 +218,15 @@ section{
 .dynamic-txts li{
     color: var(--intxt);
     list-style: none;
-    font-size: 60px;
-    font-weight: 500;
+    font-size: 40px;
+    font-weight: 600;
     position: relative;
     top: 0;
     animation:slide 6s steps(4) infinite;
 }
 @keyframes slide{
     100%{
-        top: -360px;
+        top: -355px;
     }
 }
 .dynamic-txts li samp{
@@ -239,16 +239,41 @@ section{
     height: 100%;
     width: 100%;
     background: var(--color);
-    border-left: 2px solid #f3f0f0;
+    border-left: 0px solid #f3f0f0;
     
-   animation:typing 1.5s steps(12) infinite;
+   animation:typing 1.5s steps(15) infinite;
 }
 @keyframes typing{
     100%{
-        left: 100%;
+        left: 110%;
         margin: 0 -35px 0 35px;
     }
 }
+
+@media (max-width:400px) {
+    #jy {
+      font-size:22px;
+      font-weight:580;
+    }
+  }
+  @media (max-width:375px) {
+    #ji {
+      font-size:30px;
+      font-weight:550;
+    }
+  }
+  @media (max-width:375px) {
+    #jj {
+      font-size:30px;
+      font-weight:550;
+    }
+  }
+  @media (max-width:375px) {
+    #jk {
+      font-size:30px;
+      font-weight:550;
+    }
+  }
 
 .home .share{
     position: relative;
@@ -529,19 +554,6 @@ section{
 .credits span{
     color: var(--green);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
