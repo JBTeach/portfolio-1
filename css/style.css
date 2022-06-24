@@ -52,6 +52,11 @@ body{
     background-position: center;
     }
 
+#stop-scrolling {
+height: 100% !important;
+overflow: hidden !important;
+}
+
 body.active{
     --intxt:white;
     --black:#fff;
