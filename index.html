@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body id="stop-scrolling">
+<body onload="loding()" id="stop-scrolling">
     <div class="preloader"></div>
     
 <!-- header section starts  -->
@@ -264,18 +264,16 @@
 
 
 <script>
-    function preloaderFadeOutInit(){
-$('.preloader').fadeOut('slow');
-$('body').attr('id','');
-}
-// Window load function
-jQuery(window).on('load', function () {
-(function ($) {
-preloaderFadeOutInit();
-})(jQuery);
-});
+    //    $(window).load(function(){
+    //    $(".preloader").fadeOut("slow");
+    // //    $(".preloader").css();
+    // });
+    var pp=document.getElementById("preloader");
+    function loding(){
+        pp.style.display="none"
+     
+    }
 </script>
-
 
 
 <!-- custom js file link  -->
