@@ -266,7 +266,7 @@ section{
    animation:typing 1.5s steps(15) infinite;
 }
 @keyframes typing{
-    100%{
+    75%{
         left: 110%;
         margin: 0 -35px 0 35px;
     }
