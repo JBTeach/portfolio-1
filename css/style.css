@@ -32,7 +32,7 @@
     width: 100%;
     height: 100vh;
 /*     display: flex; */
-    z-index: 99999999;
+    z-index: 999999999999;
     background-image: url("/image/preloader.gif"); /* your icon gif file path */
     background-repeat: no-repeat;
     background-color: #FFF;
